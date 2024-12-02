@@ -17,4 +17,9 @@ export class MainDbzComponent {
       power: 10000,
     }
   ]
+
+  onNewCharacter(character: Character): void {
+    console.log('MainPage');
+    console.log(character);
+  }
 }
